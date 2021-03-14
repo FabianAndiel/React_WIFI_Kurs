@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 60px;
+  padding: 20px;
+  color: white;
+}
+
+a.logoMovieList {
+  text-decoration: none;
+  font-size: 30pt;
+  color: white;
+}
+
+a.logoMovieList:hover {
+  color: orange;
+}
+
+.logoMovieList {
+  margin-top: 4px;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.movieGrid {
+  display: grid;
+  padding: 1rem;
+  grid-template-columns: repeat(6, 1fr);
+  grid-row-gap: 1rem;
+}
+
+.movieWrapper {
+  position: relative;
+  padding-top: 50vh;
+  background-size: cover;
+}
+
+.movieInfo {
+  background: white;
+  text-align: left;
+  padding: 2rem 10%;
+  display: flex;
+}
+
+.moviePoster {
+  box-shadow: 0 0 35px black;
+}
+
+.movieInfo > div {
+  margin-left: 20px;
+}
+
+.movieInfo img {
+  position: relative;
+  top: -5rem;
+}
